@@ -1,0 +1,26 @@
+KNN: 14 best accuracy
+Bagging: 12 best accuracy
+Random Forest: 12 best accuracy (98.7%), but chose 11 because less false negatives and high accuracy (98.5%)
+Decision Tree: 11 best accruacy
+SVM: 1 best accuracy
+AdaBoost: 1 best accuracy
+Naive Bayes: 1 best accuracy
+Logistic Regression: 1 best accuracy
+
+KNN had the highest accuracy with a SMOTE ratio of 14:1, so we chose this ratio.
+Bagging had the highest accuracy with a SMOTE ratio of 12:1, so we chose this ratio.
+Random Forest had the highest accuracy with a SMOTE ratio of 12:1, but we chose a SMOTE ratio of 11:1 because this ratio has a better recall and less false negatives than a ratio of 12:1 while only sacrificing about 0.2% accuracy.
+Decision Tree had the highest accuracy with a SMOTE ratio of 10:1, so we chose this ratio.
+SVM had the highest accuracy with a SMOTE ratio of 1:1, so we chose this ratio.
+AdaBoost had the highest accuracy with a SMOTE ratio of 1:1, so we chose this ratio.
+Naive Bayes had the highest accuracy with a SMOTE ratio of 1:1, so we chose this ratio.
+Logistic Regression had the highest accuracy with a SMOTE ratio of 1:1, so we chose this ratio.
+
+KNN (14): accuracy = 98.33659%; f1 score = 0.87
+Bagging (12): accuracy = 98.82583%; f1 score = 0.91
+Random Forest (11): accuracy = 98.53228%; f1 score = 0.89
+Decision Tree (11): accuracy = 98.33659%; f1 score = 0.87
+SVM (1): accuracy = 88.25831%; f1 score = 0.30
+AdaBoost (1): accuracy = 88.94324%; f1 score = 0.30
+Naive Bayes (1): accuracy = 23.58121%; f1 score = 0.14
+Logistic Regression (1): accuracy = 84.63796%; f1 score = 0.23
